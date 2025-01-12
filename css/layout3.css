@@ -8,7 +8,36 @@ div.header{}
 div.header>div.headerGrid{}
 div.header>div.headerGrid>h1{}
 div.header>div.headerGrid>ul{}
-div.header>div.headerGrid>ul>li{}
+div.header>div.headerGrid>ul>li{
+    /* 스타일을 빨강 */
+}
+div.header>div.headerGrid>ul>li{
+    /* 스타일을 노랑  */
+    /* 더 정확한게 더 우선 */
+}
+
+/* 공통: 구조가 겹치는 태그들을 
+전체적으로 한번씩 선택해줍니다.
+이유: 한번에 공통적으로 수정할 스타일을 위해서
+ */
+ div.content{}
+ div.content>div.contentGrid{}
+ div.content>div.contentGrid>div.header{}
+ div.content>div.contentGriddiv.header>h2{}
+ div.content>div.contentGrid>div.section{}
+ div.content>div.contentGrid>div.section div.article{
+    background-color: #5fff03;
+}
+div.content > div.contentGrid{}
+
+
+ div.content>div.contentGrid>div.section>div.article>img{}
+ div.content>div.contentGrid>div.section>div.article>div.texts{}
+ div.content>div.contentGrid>div.section>div.article>div.texts>h3{}
+ div.content>div.contentGrid>div.section>div.article>div.texts>h4{}
+ div.content>div.contentGrid>div.section>div.article>div.texts>p{}
+
+
 
 /* 컨텐츠1 */
 div.content.cnt1{}
