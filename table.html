@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table.html</title>
 </head>
+
 <body>
-    <!-- 테이블시작이다!  -->
-    <!--  가로 세줄 , 세로 다섯 칸  -->
-    <!-- 세로로 쌓이는거 == row  -->
-    <!-- 가로로 옆에 붙는거 == column -->
-     <!-- 가로줄은 칸이 있어야만 살아납니다.  -->
     <table>
-        <tr></tr>
-        <tr></tr>
-        <tr></tr>
+        <tr>
+            <td>
+                <h2>쌉니다!마트 주문내역서</h2>
+            </td>
+        </tr>
+        <tr>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td>/</td>
+                    <td>품목</td>
+                    <td>가격</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">리스트</td>
+                    <td>바나나</td>
+                    <td>1000원</td>
+                </tr>
+                <tr>
+                    <td>파인애플</td>
+                    <td>8000원</td>
+                </tr>
+                <tr>
+                    <td>망고</td>
+                    <td>3000원</td>
+                </tr>
+           </table>
+        </tr>
+        <tr>
+            <td>
+                <h4>구매해주셔서 감사합니다</h4>
+                <p>연락처: 123-123-123</p>
+            </td>
+        </tr>
     </table>
+   
 </body>
+
 </html>
