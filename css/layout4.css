@@ -1,18 +1,35 @@
+@import url('./reset.css');
 /* 헤더탑 */
-div.hdrTop{}
-div.hdrTop>div.hdrTopGrid{}
+div.hdrTop{
+    background-color: #212517;
+}
+div.hdrTop>div.hdrTopGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.hdrTop>div.hdrTopGrid>i{}
 
 /* 헤더 */
-div.header{}
-div.header>div.headerGrid{}
-div.header>div.headerGrid>h1{}
-div.header>div.headerGrid>ul{}
-div.header>div.headerGrid>ul>li{}
+div.headerWrap{
+    background-color: #a31f30;
+}
+div.headerWrap>div.header{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+div.headerWrap>div.header>h1{}
+div.headerWrap>div.header>ul{}
+div.headerWrap>div.header>ul>li{}
 
 /* 컨텐츠 공통 */
 div.content{}
-div.content>div.contentGrid{}
+div.content>div.contentGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.content>div.contentGrid>div.header{}
 div.content>div.contentGrid>div.header>h2{}
 div.content>div.contentGrid>div.header>p{}
@@ -79,7 +96,11 @@ div.content.cnt3>div.contentGrid>div.section>div.article>div.texts>p{}
 
 /* 푸터 */
 div.footer{}
-div.footer>div.footerGrid{}
+div.footer>div.footerGrid{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.footer>div.footerGrid>h4{}
 div.footer>div.footerGrid>p{}
 div.footer>div.footerGrid>div.sns{}
