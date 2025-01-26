@@ -1,0 +1,59 @@
+/* 헤더탑 */
+.hdrTopWrap {}
+.hdrTopWrap .hdrTop {}
+.hdrTopWrap .hdrTop i {}
+
+/* 헤더 */
+.hdrWrap {}
+.hdrWrap header {}
+.hdrWrap header h1 {}
+.hdrWrap header ul {}
+.hdrWrap header ul li {}
+
+/* 컨텐츠 공통 */
+.cntWrap{}
+.cntWrap .content{}
+.cntWrap .content header{}
+.cntWrap header h2{}
+.cntWrap header p{}
+.cntWrap section{}
+.cntWrap section article{}
+.cntWrap article .image{}
+.cntWrap article .texts{}
+.cntWrap .texts h3{}
+.cntWrap .texts h4{}
+.cntWrap .texts p{}
+.cntWrap .texts i{}
+
+/* 컨텐츠1 */
+.cnt01{}
+.cnt01 header{}
+.cnt01 header h2{}
+.cnt01 header p{}
+.cnt01 section{}
+.cnt01 section .artTop{}
+.cnt01 .artTop article{}
+.cnt01 .artTop .image{}
+.cnt01 .artTop .image.i1{}
+.cnt01 .artTop .image.i2{}
+.cnt01 .artTop .texts{}
+.cnt01 .artTop .texts h3{}
+.cnt01 .artTop .texts h4{}
+.cnt01 .artTop .texts p{}
+.cnt01 .artTop .texts .icons{}
+.cnt01 .artTop .texts i{}
+.cnt01 section .artBtm{}
+
+
+
+
+
+
+/* 푸터 */
+.ftrWrap {}
+.ftrWrap footer {}
+.ftrWrap footer h4 {}
+.ftrWrap footer p {}
+.ftrWrap footer .sns {}
+.ftrWrap footer .sns i {}
+
